@@ -1,0 +1,1 @@
+[26-Jul-2020 14:42:16 America/Mexico_City] PHP Fatal error:  Call to a member function fetch_array() on boolean in /home/emesa/public_html/sap/cgi-bin/php/controlador/controlador_pedidos.php on line 43

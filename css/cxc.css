@@ -1,0 +1,51 @@
+#labelNombreCliente{
+    padding-top:.5rem;
+    width:15rem;
+    height: 3rem; 
+    font-style: italic;        
+}
+
+.liListaClientes:hover{
+    font-weight:bold;
+    background-color:#E9E9E9;
+}
+#selVendedor{
+    text-transform: uppercase;
+}
+
+
+
+#autoCompleteProv{
+    display:none;
+    position:absolute;
+    /* transform: translateY(-10px); */
+    width:300px;
+    background-color: #EEEEEE;
+    /* padding:1rem; */
+    padding-bottom:.2rem;
+    border-radius: 0px 3px 3px 3px;
+    
+}
+#autoCompleteProv ul {
+    padding:0px;
+}
+#autoCompleteProv ul li{
+    list-style: none;
+    margin:0!important;
+    padding:.7rem;
+    cursor:pointer;
+    padding-bottom:.1rem;
+    
+}
+
+#ulClientesListaFiltrada{
+    font-size:10px;
+}
+
+
+#Anio, #selVendedor, #inputCliente{
+    width: 80%;
+}
+#ragoMontoMayorA{
+    width:96%;
+}
