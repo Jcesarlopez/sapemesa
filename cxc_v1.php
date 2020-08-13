@@ -540,7 +540,10 @@ h3{
                         
                         </div>
                         <div class="contentMinidash">
-                            aqui van los datos principales
+                            aqui van los datos <br>
+                            <br><p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore commodi, quos in quidem corporis non impedit nam libero sequi! Asperiores.
+                            </p>
 
                         </div>                    
                     </div>
