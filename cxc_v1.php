@@ -541,10 +541,7 @@ h3{
                         </div>
                         <div class="contentMinidash">
                             aqui van los datos <br>
-                            <br><p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore commodi, quos in quidem corporis non impedit nam libero sequi! Asperiores.
-                            </p>
-
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum perferendis, expedita molestiae maiores laborum suscipit, cupiditate earum ad quaerat assumenda ipsum facilis! Modi recusandae, est minus excepturi perspiciatis sequi deserunt.
                         </div>                    
                     </div>
 
