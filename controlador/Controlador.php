@@ -73,7 +73,7 @@ session_start();
 			require_once($_SESSION['PathModel']."Modelos.php");
 			$vendedores = new ListaVendedores();
 			$resultado = $vendedores->listar();
-			while($av = mysqli_fetch_array($resultado, MYSQL_BOTH))
+			while($av = mysqli_fetch_array($resultado, MYSQLI_BOTH))
 			{	
 					$selected="";
 					if($VendedorDefault==$av['IdUsuario'])
@@ -99,7 +99,7 @@ session_start();
 
 			
 			 self::$datos='<ul class="collection with-header">';			        
-			while($av = mysqli_fetch_array($resultado, MYSQL_BOTH))
+			while($av = mysqli_fetch_array($resultado, MYSQLI_BOTH))
 			{			    
 		         
 
@@ -172,12 +172,11 @@ session_start();
 		public function Verificar($user,$pass)
 		{
 			require "config.php";	
-			//$_SESSION['PathModel']="/home/emesa/public_html/sap/cgi-bin/_cotptar/";
+			
 
 			require_once($_SESSION['PathModel']."Modelos.php");
 
-			//require_once("/home/emesa/public_html/sap/cgi-bin/_cotptar/Modelos/Modelos.php");
-			//require_once("/inetpub/wwwroot/cot_emesa/Modelos/Modelos.php");
+			
 			$datosLogin = new DatosLogin();
 			$Query = $datosLogin->VerificarLog($user,$pass);
 			$c=0;

@@ -21,11 +21,21 @@ $_SESSION['MySQLdb']="emesa_saptest";*/
 
 
 // Configigacion Servidor Real
-$_SESSION['PathModelSap']="/home/emesa/public_html/sap/cgi-bin/php/modelo/";
+// $_SESSION['PathModelSap']="/home/emesa/public_html/sap/cgi-bin/php/modelo/";
+// $_SESSION['MySQLServidorSap']="localhost";
+// $_SESSION['MySQLUserSap']="emesa_iessus";
+// $_SESSION['MySQLPassSap']="Equipos4125#";
+// $_SESSION['MySQLdbSap']="emesa_sap";
+
+
+// Configigacion Servidor desarrollo
+$_SESSION['PathModelSap']="/inetpub/wwwroot/cxcEmesa/modelo/";
 $_SESSION['MySQLServidorSap']="localhost";
-$_SESSION['MySQLUserSap']="emesa_iessus";
-$_SESSION['MySQLPassSap']="Equipos4125#";
+$_SESSION['MySQLUserSap']="root";
+$_SESSION['MySQLPassSap']="Cute7892$.JcwA";
 $_SESSION['MySQLdbSap']="emesa_sap";
+
+
 
 
 // Configigacion Local PC

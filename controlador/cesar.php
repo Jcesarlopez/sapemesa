@@ -23,7 +23,7 @@ session_start();
 //     echo "no";
 // }
 
-echo $_SESSION['CADENAsQL'];
+echo $_SESSION['PathModel'];
 
 
 ?>

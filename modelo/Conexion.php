@@ -29,12 +29,7 @@ session_start();
 	public function __construct()
 	{
 
-		// $_SESSION['PathModelSap']="/home/emesa/public_html/sap/cgi-bin/php/modelo/";
-		// $_SESSION['MySQLServidorSap']="localhost";
-		// $_SESSION['MySQLUserSap']="emesa_iessus";
-		// $_SESSION['MySQLPassSap']="Equipos4125#";
-		// $_SESSION['MySQLdbSap']="emesa_sap";
-
+		
 
 		$this->MySQLServidor=$_SESSION['MySQLServidorSap'];
 		$this->MySQLUser=$_SESSION['MySQLUserSap'];

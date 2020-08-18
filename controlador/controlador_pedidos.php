@@ -26,7 +26,7 @@ class CPedidos
             $c=0;
 
 
-            while($fila = $resultadoTotalPedidos->fetch_array(MYSQL_BOTH))
+            while($fila = $resultadoTotalPedidos->fetch_array(MYSQLI_BOTH))
              {
 
                  
@@ -35,7 +35,7 @@ class CPedidos
 
                 // Aqui obtenemos cuanto se ha cobrado del pedido con base a la suma de los depositos
                  $Cobrado = $this->CMPedidos->TotalCobrosPedido($fila['IdPedido']);
-                 while($fila2 = $Cobrado->fetch_array(MYSQL_BOTH))
+                 while($fila2 = $Cobrado->fetch_array(MYSQLI_BOTH))
                  {
                     if($fila2[0]!=null)
                     {
@@ -60,7 +60,7 @@ class CPedidos
                  
                 $Depositos = $this->CMPedidos->relacionDepositos($fila['IdPedido']);
                  $c=0;
-                while($Deposito = $Depositos->fetch_array(MYSQL_BOTH))
+                while($Deposito = $Depositos->fetch_array(MYSQLI_BOTH))
                 {
 
                     

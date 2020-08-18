@@ -19,7 +19,7 @@
 			$resultado =  $this->CMVendedores->ListaVendedores();
 
 
-			 while($fila = $resultado->fetch_array(MYSQL_BOTH))
+			 while($fila = $resultado->fetch_array(MYSQLI_BOTH))
 			 {
 
 				$datos[]=$fila;
